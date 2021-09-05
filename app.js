@@ -10,7 +10,8 @@ const fileUpload = require('express-fileupload');
 const axios = require('axios');
 const mime = require('mime-types');
 
-const port = process.env.PORT || 8000;
+// config for port
+const port = process.env.PORT || 9494;
 
 const app = express();
 const server = http.createServer(app);
