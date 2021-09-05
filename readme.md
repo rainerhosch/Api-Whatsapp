@@ -1,6 +1,6 @@
-# Whatsapp API Tutorial
+# Whatsapp API Implementation
 
-Hi, this is the implementation example of <a href="https://github.com/pedroslopez/whatsapp-web.js">whatsapp-web.js</a>
+Hi, this is API Service for Whatsapp basic from <a href="https://github.com/pedroslopez/whatsapp-web.js">whatsapp-web.js</a>
 
 Social Media:
 
@@ -13,12 +13,13 @@ Social Media:
 
 - Clone or download this repo
 - Enter to the project directory
+- Edit or Set port server on file app.js
 - Run `npm install` for required library
 - Run `npm run start`
-- Open browser and go to address `http://localhost:9494`
-- Scan the QR Code
+- Open browser and go to address server `http://localhost:8080`
+- Scan QR Code
 
-### Send message to group
+### Send message to group by <a href="https://github.com/ngekoding">Nur Muhammad</a>
 
 You can send the message to any group by using `chatID` or group `name`, chatID will used if you specify the `id` field in the form, so if you want to send by `name`, only use name.
 
@@ -36,7 +37,7 @@ Here the way to get the groups info (including ID & name):
 - The API will replying with the groups info
 - Use the ID to send a message
 
-### Downloading media
+### Downloading media by <a href="https://github.com/ngekoding">Nur Muhammad</a>
 
 I add an example to downloading the message media if exists. Please check it in `on message` event!
 
