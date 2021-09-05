@@ -14,7 +14,7 @@ Social Media:
 - Clone or download this repo
 - Enter to the project directory
 - Run `npm install` for required library
-- Run `npm run start:dev`
+- Run `npm run start`
 - Open browser and go to address `http://localhost:9494`
 - Scan the QR Code
 
@@ -44,6 +44,10 @@ We use `mime-types` package to get the file extension by it's mimetype, so we ca
 
 And we decided (for this example) to use time as the filename, because the media filename is not certain exists.
 
+## Thanks To
+- <a href="https://github.com/pedroslopez">pedroslopez</a>
+- <a href="https://github.com/ngekoding">Nur Muhammad</a>
+
 ## Support Me
 
-You can make a support for this work by <a href="#">RZ OKTAN</a>. Thanks
+You can make a support for this work by <a href="#">RZ OKTAN</a>.
